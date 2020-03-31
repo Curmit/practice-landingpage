@@ -1,0 +1,188 @@
+/* Base Styles -------------------- */
+* {
+  color: #878787;
+  box-sizing: border-box;
+  margin:0;
+ 
+}
+
+.debug{
+  border: 2px red solid;
+}
+
+body,
+html{
+  height:100%;
+}
+
+h1,h2,p,a,label,li {
+font-family:'Lucida Grande',Helvetica, Arial, sans-serif; 
+}
+
+h1{
+font-weight:bold;
+margin: 24px;
+padding:24px 24px;
+color: rgb(27,30, 43);
+text-align:center;
+}
+
+h2{margin: 24px;padding:24px 24px;display: block;text-align: center;}
+
+p{
+margin-top: 0.8em;
+margin-bottom:0.8em;
+}
+
+.card {
+  padding-left: 172px;
+  padding-right: 172px;
+  margin: auto;
+  border-left: 96px;
+  border-right: 96px;
+  /* border-radius: 49px; */
+}
+.round-corners
+
+#header{
+  height: 192px;
+  background-color:white;
+}
+
+nav{
+margin: 48px;
+}
+
+#nav-bar ul{padding: 26px 0 0;text-align: center;
+margin: 0 0 0 80px;}
+
+#logo{
+  float: left;
+  padding: 16px 0 0px 128px;
+  width: 20%;}
+
+.nav-link{
+  text-transform: uppercase;
+  font-size: 0.9em;
+  margin: 49px 0 0 0;
+  list-style-type: none;
+  display: inline;
+  padding:0 32px;
+}
+
+.nav-link a{
+  color: rgb(47,50,69);
+}
+.image-style{
+  width: 44%;
+  margin:0 24px 24px 24px;
+  padding:24px;
+  float:left;
+}
+
+.subtitle-description{
+ font-weight: bold;
+}
+
+.description{
+  background-color:rgb(244,244,245);
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.background-color{
+  background-color:rgb(244,244,245);
+
+}
+
+.description-text{
+  width: 44%;
+  float:right;
+  padding: 24px 24px;
+  margin: 0 24px 24px 24px;
+}
+
+.secondary-content{
+  background-color: rgb(244,244,245);
+  border-radius: 20px;
+  box-sizing: border-box;
+  width: 48%;
+  margin: 24px 0 24px 0px;
+  /* height: 40%; */
+}
+
+form{
+  display:inline-block;
+}
+#order-forum{
+  display:inline-block;
+}
+
+
+#form{
+  border:none;
+  float:left;
+  margin:0 24px 0;
+  padding: 0 0 0 24px;
+}
+
+/*text for forum*/
+label,
+button{
+  display: block;
+  margin: 16px 0;
+
+}
+
+ /*input*/
+input,
+textarea,
+select{width: 200%;padding: 12px 20px;margin: 16px,0;box-sizing: border-box;border: 2px solid rgb(65,61,61,0.3);border-radius: 4px;}
+
+.podcast{
+  float: right;
+  padding: 0 36px;
+}
+iframe{
+  padding: 24px;
+  margin: 0px 0px 224px -16px;
+  /* float: initial; */
+}
+
+
+footer{
+ position: relative;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ background-color: rgb(82,82,82);
+ color: white;
+
+ overflow:hidden;
+}
+
+#contact{
+  padding: 44px 0 0 0;
+}
+#contact p,
+address{
+  text-align: left;
+  margin: 0 0 0 172px;
+  padding: 0 0 0 44px;
+}
+
+#copyright p{
+  text-align: center;
+  margin:24px 24px 0 24px;
+
+}
+
+
+/* Layout styles -------------------- */
+
+.group:after {
+content: "";
+display: table;
+clear: both;
+} 
+
