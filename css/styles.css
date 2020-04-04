@@ -55,8 +55,11 @@ margin-bottom:0.8em;
 
 nav{margin: 0 48px 48px 48px;}
 
-#nav-bar ul{padding: 26px 0 0;text-align: center;
-margin: 0 0 0 80px;}
+#nav-bar ul{
+padding: 26px 0 0;
+text-align: center;
+margin: 0 0 0 80px;
+}
 
 #logo{
   float: left;
@@ -203,7 +206,7 @@ clear: both;
 body,
 html{
   height:100%;
-  padding-top: 72px;
+  padding-top: px;
 }
 
 h1,h2,p,a,label,li {
@@ -236,7 +239,7 @@ margin-bottom:0.8em;
 
 
 #header{
-  height: 32px;
+  height: 64px;
   background-color:white;
   position: fixed;
   top: 0;
@@ -246,8 +249,7 @@ margin-bottom:0.8em;
 
 nav{margin: 0 48px 48px 48px;}
 
-#nav-bar ul{padding: 26px 0 0;text-align: center;
-margin: 0 0 0 80px;}
+
 
 #logo{
   float: left;
